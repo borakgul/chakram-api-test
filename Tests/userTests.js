@@ -59,7 +59,7 @@ describe("User Tests", function () {
             "phone": "34432342342",
             "userStatus": 0
           };
-deneme
+
         const response = chakram.put("https://petstore.swagger.io/v2/user/testcan123", data);
         
         return response.then(function (res){
